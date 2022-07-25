@@ -74,7 +74,7 @@ const bfs3 = r =>{
 // bfs3(root);
 
 
-const bfs = r =>{
+const bfs4 = r =>{
     if(!r) return;
     const q = [r];
     while(q.length !== 0){
@@ -85,4 +85,17 @@ const bfs = r =>{
     }
 }
 
-bfs(root);
+// bfs4(root);
+
+const bfs5 = r =>{
+    if(!r) return;
+    const q = [r];
+    while(q.length !== 0){
+        const n = q.shift();
+        console.log(n.val);
+        if(n.left) q.push(n.left);
+        if(n.right) q.push(n.right);
+    }
+}
+
+bfs5(root);

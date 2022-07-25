@@ -44,4 +44,15 @@ def bfs2(r):
         if n.left: q.append(n.left)
         if n.right: q.append(n.right)
 
-bfs2(root)
+# bfs2(root)
+
+def bfs3(r):
+    if not r: return
+    q = [r]
+    while q:
+        n = q.pop(0)
+        print(n.val)
+        if n.left: q.append(n.left)
+        if n.right: q.append(n.right)
+
+bfs3(root)
