@@ -25,7 +25,7 @@
 
     ^^^: a (0) node means we reached our target sum & (0) node returns [] that bubles up to the top pushing the current number(s) into the array. all other leaf nodes return null. in this case when we reach the first (0) node we return [] and [].push(3) then [3].push(5) then at each level we compair length & make sure shortestCombination is smalles length of the posible sums we find [3, 5] as the answer.
 
-    Certain arguments will cause duplicates in the graph ***We can memoize this***. (e.g. memo = { "2": [2], "3": [2,3]})
+    Certain arguments will cause duplicates in the graph ***We can memoize this***. (e.g. memo = { "2": [2], "3": [3]})
 
     Memoization Graph:
                                                [3,5] 
