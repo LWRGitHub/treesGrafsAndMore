@@ -1,4 +1,8 @@
 /*
+    Can Sum
+    canSum v 1.0.0 >>> howSum v 2.0.0 >>> bestSum v 3.0.0
+
+
     Take the targetSum and an array of numbers as arguments.
     Return a boolean indicating whether or not it is possible to generate the targetSum using numbers from the array.
     You may use an element of the array as many times as needed.

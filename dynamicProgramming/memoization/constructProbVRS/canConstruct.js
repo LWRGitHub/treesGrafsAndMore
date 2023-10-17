@@ -1,6 +1,6 @@
 /*
-
-    canConstruct
+    Can Construct Problem
+    canConstruct v. 1.0.0 >>> countConstruct v. 2.0.0 >>> allConstruct v. 3.0.0
 
     Write a function `canConstruct(target, wordBank)` that accepts a target string and an array of strings.
     The function should return a boolean indicating whether or not the `target` can be constructed by concatenating elements of the `wordBank` array.
@@ -72,7 +72,7 @@ const canConstruct = (target, wordBank, memo={}) => {
     }
     memo[target] = false;
     return false;
-} // T: O(n^m * m) S: O(m^2)
+} // T: O(n * m^2) S: O(m^2)
 
 
 console.log(canConstruct('abcdef', ['ab', 'abc', 'cd', 'def', 'abcd'])); // true
