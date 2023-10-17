@@ -14,12 +14,12 @@
 
             Start with 0 at every index of the table array
 
-            idx: 0  1  2  3  4  5 (6) // 6 is the target
+            idx: 0  1  2  3  4  5 (6)       >>> 6 is the target
                 [0, 0, 0, 0, 0, 0, 0]
 
-                [0, 1, 0, 0, 0, 0, 0] // seed with 1 @ idx 1
+                [0, 1, 0, 0, 0, 0, 0]       >>> seed with 1 @ idx 1
 
-                [ 0, 1, 0, 0, 0, 0, 0] // add 0 to idx 1 & 2
+                [ 0, 1, 0, 0, 0, 0, 0]      >>> add 0 to idx 1 & 2
                   |  |  |
                   |__|  | 
                   |_____|
