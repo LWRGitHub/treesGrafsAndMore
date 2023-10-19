@@ -1,5 +1,9 @@
 /*
 
+    canSum v. 1.0.0 >>> howSum v. 2.0.0 >>> bestSum v. 3.0.0
+
+    
+
     Problem: Write a function 'canSum(targetSum, numbers)' that takes in a targetSum and an array of numbers as arguments.
     The function should return a boolean indicating whether or not it is possible to generate the targetSum using numbers from the array.
     You may use an element of the array as many times as needed.
@@ -36,8 +40,9 @@
 
         [true, false, false, true, (true), true, true, true] -> true    // true >>> idx[7] ***Answer @ idx[target]***
                                       |________3__________|  
-                              
-
+                 
+                                      
+    Alvin Zablan (Dec. 3, 2020) YouTube; Dynamic Programming - Learn to Solve Algorithmic Problems & Coding Challenges: https://www.youtube.com/watch?v=oBt53YbR9Kk
 */
 
 

@@ -81,6 +81,8 @@
         [ 0, 1, 1,  1]    
         [ 0, 1, 2,  3] 
         [ 0, 1,(3)>,6]  -> 6    ***Answer @ idx[3][3]***
+
+        Alvin Zablan (Dec. 3, 2020) YouTube; Dynamic Programming - Learn to Solve Algorithmic Problems & Coding Challenges: https://www.youtube.com/watch?v=oBt53YbR9Kk
 */
 
 
